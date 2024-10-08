@@ -1,0 +1,10 @@
+.card-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.card-list > img {
+  max-width: 300px;
+  object-fit: cover;
+}
